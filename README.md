@@ -1,5 +1,5 @@
 # SRBot
-A simple Python 3 bot for [Discord](https://discordapp.com/), which returns a list of skill rating values for a given list of [Overwatch](https://playoverwatch.com/en-us/) accounts. The bot utilizes the unofficial Overwatch [API](https://github.com/SunDwarf/OWAPI/blob/master/api.md) maintained by SunDwarf.
+A simple Python 3 bot for [Discord](https://discordapp.com/), which returns a list of skill rating values for a given list of [Overwatch](https://playoverwatch.com/en-us/) accounts. The bot utilizes the unofficial Overwatch [API](https://github.com/SunDwarf/OWAPI/blob/master/api.md) maintained by Laura F.D. aka SunDwarf.
 ## Example Usage
 ![Command and Response](https://i.imgur.com/mJG59kd.png)
 ## Getting Started
@@ -17,3 +17,6 @@ If you don't have those two packages already installed, get them through pip usi
 4. Ensure you remember the bot token and client ID you are given at this stage
 5. Edit the SRBot.py file and enter your own bot token where it says `bot.run('SECRET TOKEN')`
 6. Add your bot to a Discord server by inserting your client ID into the following link `https://discordapp.com/api/oauth2/authorize?client_id=CLIENT_ID_GOES_HERE&scope=bot&permissions=0` and open it in your browser.
+## Acknowledgments
+- [Coding with Python](https://writinginpython.wordpress.com/2017/04/01/how-to-code-a-discord-bot-with-python-part-1/)
+- [Laura F.D](https://github.com/SunDwarf/OWAPI)
