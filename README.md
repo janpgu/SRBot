@@ -8,7 +8,7 @@ In order to use or build upon this bot, you'll need the following Python package
 - requests
 - discord
 
-If you don't have those already install them through pip using the command
+If you don't have those two packages already installed, get them through pip using the command
 `pip3 install requests discord`. Additionally you will obviously need a Discord account and server.
 ### Deployment / Installation
 1. Navigate to the following [link](https://discordapp.com/developers/applications/me)
