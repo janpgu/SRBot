@@ -19,4 +19,4 @@ If you don't have those two packages already installed, get them through pip usi
 6. Add your bot to a Discord server by inserting your client ID into the following link `https://discordapp.com/api/oauth2/authorize?client_id=CLIENT_ID_GOES_HERE&scope=bot&permissions=0` and open it in your browser.
 ## Acknowledgments
 - [Coding with Python](https://writinginpython.wordpress.com/2017/04/01/how-to-code-a-discord-bot-with-python-part-1/)
-- [Laura F.D](https://github.com/SunDwarf/OWAPI)
+- [Laura F.D](https://github.com/SunDwarf/OWAPI) aka SunDwarf
