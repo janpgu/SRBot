@@ -22,7 +22,7 @@ userList.append('Thinking-21442')
 userList.append('Bruh-11392')
 userList.append('IronFist-12981')
 
-# Instatiation of bot with '!s' as a prefix --> !sNAME_OF_COMMAND will trigger NAME_OF_COMMAND
+# Instantiation of bot with '!s' as a prefix --> !sNAME_OF_COMMAND will trigger NAME_OF_COMMAND
 bot = commands.Bot(command_prefix='!s', description='Returns a list of all SR values for all chosen accounts')
 
 @bot.event # simple little message to notify you in the console once a connection to discord has been made
