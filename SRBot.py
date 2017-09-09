@@ -47,4 +47,4 @@ async def r():
 		await bot.say(outMsg)
 	await bot.say('####################################') # cosmetic spacer to distinguish from normal messages
 
-bot.run('MzU2MDU5OTE2Nzg1NDE4MjQx.DJV2Pg.tCof_GMk5q-1vd5QfDR1ANDk4F0')
+bot.run('SECRET TOKEN')
