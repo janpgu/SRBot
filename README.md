@@ -7,7 +7,7 @@ A simple Python 3 bot for [Discord](https://discordapp.com/), which returns a li
 In order to use or build upon this bot, you'll need the following Python packages:
 - requests
 - discord
-If you don't have those already install them through pip as follows:
-`pip install requests`
-`pip install discord`
+
+If you don't have those already install them through pip using the command
+`pip3 install requests discord`. Additionally you will obviously need a Discord account.
 ### Deployment
