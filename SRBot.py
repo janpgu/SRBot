@@ -15,12 +15,9 @@ srList = []
 userList = [] # create empty list for easier adding of new accounts (see lines below)
 
 # List of all OW account battletags where '#' has been replaced with '-' for easier API use
-userList.append('Bronzo-11898')
-userList.append('Zylbad-2592')
-userList.append('Meow-22747')
-userList.append('Thinking-21442')
-userList.append('Bruh-11392')
-userList.append('IronFist-12981')
+userList.append('BATTLETAG-123')
+userList.append('BATTLETAG-123')
+userList.append('BATTLETAG-123')
 
 # Instantiation of bot with '!s' as a prefix --> !sNAME_OF_COMMAND will trigger NAME_OF_COMMAND
 bot = commands.Bot(command_prefix='!s', description='Returns a list of all SR values for all chosen accounts')
