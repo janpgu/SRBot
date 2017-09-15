@@ -41,8 +41,8 @@ async def r():
         time.sleep(1)  # Sleep for one second to respect the rate limits of API
     await bot.say('####################################')  # Cosmetic spacer to distinguish from normal messages
     # Separate loop so output is produced in quick succession and shows up as a single discord message block
-    for i in range(len(userList)):
-        outMsg = userList[i] + ' --- ' + str(srList[i])
+    for idx, _ in enumerate(userList):
+        outMsg = userList[idx] + ' --- ' + str(srList[idx])
         await bot.say(outMsg)
     await bot.say('####################################')  # Cosmetic spacer to distinguish from normal messages
 
